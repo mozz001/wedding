@@ -31,6 +31,7 @@ section{
   padding:2rem 9%;
 }
 
+
 .heading{
   text-align: center;
   padding:2.5rem 0
@@ -381,6 +382,7 @@ header .search-bar-container label:hover{
   color: rgba(0, 0, 0, 0.7);
   padding: .5rem 0rem;
   text-transform: none;
+  display: inline-block;
 }
 
 .book .row .Aboutus .inputBox input{
@@ -524,18 +526,21 @@ header .search-bar-container label:hover{
 .packages .box-container .box .content .stars i{
   font-size:1.7rem;
   color:var(--orange);
+  display: none;
 }
 
 .packages .box-container .box .content .price{
   font-size: 2rem;
   color:#333;
   padding-top: 1rem;
+  display: none;
 }
 
 .packages .box-container .box .content .price span{
   color:#666;
   font-size: 1.5rem;
   text-decoration: line-through;
+  display: none;
 }
 
 .services .box-container{
@@ -548,7 +553,7 @@ header .search-bar-container label:hover{
   flex: 1 1 30rem;
   border-radius: .5rem;
   padding:1rem;
-  text-align: center;
+  text-align: left;
 }
 
 .services .box-container .box i{
@@ -627,7 +632,7 @@ header .search-bar-container label:hover{
 
 .review .box{
   padding:2rem;
-  text-align: center;
+  text-align: left;
   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
   border-radius: .5rem;
 }
@@ -655,11 +660,13 @@ header .search-bar-container label:hover{
   font-size: 1.5rem;
   padding:1rem 0;
   text-align: start;
+  text-transform: none;
 }
 
 .review .box .stars i{
   color:var(--orange);
   font-size: 1.7rem;
+  display: none;
 }
 
 .contact .row{
@@ -708,6 +715,36 @@ header .search-bar-container label:hover{
 
 .brand-container{
   text-align: center;
+}
+
+.prefooter{
+  min-height: 50vh;
+  display: flex;
+  align-items: left;
+  justify-content: end;
+  flex-flow: column;
+  position: relative;
+  z-index: 0;
+  background-image: linear-gradient(0deg, rgba(0,0,0,.3), rgba(0, 0, 0, 0.5)) , url('/images/Pre-Footer.jpg');
+  background-size: cover;
+  background-position: 50% 73%;
+}
+
+.prefooter .content{
+  text-align: left;
+}
+
+.prefooter .content h3{
+  font-size: 4.5rem;
+  color:#fff;
+  text-transform: uppercase;
+  text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
+}
+
+.prefooter .content p{
+  font-size: 2.5rem;
+  color:#fff;
+  padding:.5rem 0;
 }
 
 .footer{

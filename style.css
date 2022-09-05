@@ -354,7 +354,7 @@ header .search-bar-container label:hover{
   box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.1);
   border-radius: .5rem;
   align-items: stretch;
-  height: 100vh
+
 }
 
 .book .row .Wedding-Info{
@@ -401,8 +401,8 @@ header .search-bar-container label:hover{
 }
 
 .book .row .Aboutus p{
-  font-size: 2.5rem;
-  color: rgba(0, 0, 0, 0.7);
+  font-size: 2.0rem;
+  color: rgba(0, 0, 0, 0.9);
   padding: .5rem 0rem;
   text-transform: none;
 }

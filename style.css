@@ -464,6 +464,7 @@ header .search-bar-container label:hover{
   font-size: 1.5rem;
   color: #666;
   padding: 1rem 0;
+  text-transform: none;
 }
 
 .services .box-container .box a{
@@ -625,6 +626,14 @@ header .search-bar-container label:hover{
   padding:.5rem 0;
 }
 
+.gallery .box ul{
+  color:#666;
+  font-size: 1.5rem;
+  padding:1rem 0;
+  text-align: start;
+  text-transform: none;
+}
+
 .review .review-slider{
   padding-bottom: 2rem;
   align-items: center;
@@ -651,8 +660,9 @@ header .search-bar-container label:hover{
 
 .review .box p{
   color:#666;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   padding:1rem 0;
+  text-transform: none;
 }
 
 .review .box ul{
